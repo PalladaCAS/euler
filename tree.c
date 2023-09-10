@@ -2,10 +2,10 @@
 
 #include "tree.h"
 
-euler_tree *euler_plant_tree() {
+euler_tree *euler_tree_init() {
 
 }
 
-void euler_fell_tree() {
+void euler_tree_delete() {
 
 }
