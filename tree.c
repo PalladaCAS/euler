@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#include <tree.h>
+#include "tree.h"
 
-void euler_tree_init() {
+euler_tree *euler_tree_init() {
 
 }
 
-void euler_tree_delete() {
+void euler_tree_deinit() {
 
 }
