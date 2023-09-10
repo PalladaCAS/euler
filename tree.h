@@ -2,9 +2,11 @@
 #define __EULER_TREE_LIBRARY_H_INCLUDED__
 
 typedef struct {
-    int n;
-    void *nodes;
+    unsigned int density;
+    void **krone;
 } euler_tree;
 
-void euler_tree_init();
-void euler_tree_delete();
+void euler_plant_tree();
+void euler_fell_tree();
+
+#endif
