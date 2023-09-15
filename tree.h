@@ -8,5 +8,6 @@ typedef struct {
 
 euler_tree *euler_plant_tree(euler_tree *);
 void euler_fell_tree(euler_tree *);
+void euler_add_node_tree(euler_tree *, void *, unsigned int);
 
 #endif
