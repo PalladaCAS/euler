@@ -27,6 +27,3 @@ void euler_add_node_tree(euler_tree *target, void *content, unsigned int size) {
     target->density += 1;
 } 
 
-int main() {
-    return 0;
-}
