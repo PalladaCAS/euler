@@ -6,7 +6,7 @@ typedef struct {
     void **krone;
 } euler_tree;
 
-void euler_plant_tree();
-void euler_fell_tree();
+euler_tree *euler_plant_tree(euler_tree *);
+void euler_fell_tree(euler_tree *);
 
 #endif
