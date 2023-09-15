@@ -1,1 +1,4 @@
 *.log
+/logos/**
+tree
+*.swp
